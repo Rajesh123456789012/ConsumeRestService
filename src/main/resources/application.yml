@@ -1,0 +1,15 @@
+domain-api:
+  base-url: http://localhost:9988/
+  add-emp:
+    base-uri: emp/save
+  get-all-emps:
+    base-uri: emp/allEmps
+
+
+server:
+  port: 9090
+
+---
+spring:
+  profiles:
+    active: dev
